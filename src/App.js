@@ -1,28 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import CourseList from './components/courses/CourseList';
-import Navbar from './components/Navbar/Navbar';
+import logo from './assets/img/logo.svg';
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      courses: 10
-    }
-  }
-
   render() {
     return (
-      <div className="app-container">
-        <Navbar />
-        <div className="App App-header">
+      <div className="App">
+        <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to SkillsUpgrader !!</h2>
+          <h2>Welcome to SkillsUpgrader</h2>
         </div>
-        <div className="container">
-            <CourseList />
-        </div>
+        <p className="App-intro">
+          Coming Soon....
+        </p>
       </div>
     );
   }
