@@ -1,0 +1,54 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Hadoop",
+      "author": "Mahesh Gupta",
+      "thumbnail": "",
+      "chapters": [
+        {
+          "name": "First Chaper",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+        },
+        {
+          "name": "Second Chaper",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+        },
+        {
+          "name": "Third Chaper",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+        },
+        {
+          "name": "Fourth Chaper",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+    },
+    {
+      "id": 2,
+      "title": "Angular js",
+      "author": "Blah blah",
+      "thumbnail": "",
+      "chapters": [
+        {
+          "name": "First Chaper",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+        },
+        {
+          "name": "Second Chaper",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+        },
+        {
+          "name": "Third Chaper",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+        },
+        {
+          "name": "Fourth Chaper",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa eius sed pariatur quibusdam corporis quam, velit perferendis voluptate, libero maiores ad deserunt blanditiis neque officia amet, aliquam rem numquam?"
+    }
+  ]
+}
