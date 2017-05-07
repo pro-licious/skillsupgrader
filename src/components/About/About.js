@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 
+// Be sure to include styles at some point, probably during your bootstrapping
+//import 'react-select/dist/react-select.css';
+
 class About extends Component {
   render () {
     return (
       <div>
-        <h1>About</h1>
+        <h2>About</h2>
       </div>
     )
   }

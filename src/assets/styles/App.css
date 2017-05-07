@@ -3,9 +3,10 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-image: url('../img/persona-development1.jpg');
+  background-repeat: no-repeat;
   height: 20%;
-  padding: 20px;
+  padding: 12%;
   color: white;
 }
 
