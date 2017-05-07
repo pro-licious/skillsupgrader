@@ -11,6 +11,7 @@ const Navbar = () => {
       <Link className="navbar-brand" to="/">SkillsUpgrader</Link>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
+          <a href="http://skillsupgrader.thinkific.com/collections" className="nav-item nav-link">All Courses</a>
           <Link className="nav-item nav-link" to="about">About</Link>
         </div>
       </div>
