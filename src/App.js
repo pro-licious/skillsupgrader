@@ -1,17 +1,24 @@
 import React, { Component } from 'react';
 import logo from './assets/img/logo.svg';
+import CoursePage from './components/Courses/CoursePage'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to SkillsUpgrader</h2>
+          <h2>Instructor-led live & Expert-led Recorded</h2>
+          <h4>Free and Premium Online Courses</h4>
         </div>
-        <p className="App-intro">
-          Coming Soon....
-        </p>
+        <h4>
+          <br/>
+          Popular Courses
+        </h4>
+
+        <div className="container">
+          <br/>
+          <CoursePage />
+        </div>
       </div>
     );
   }
