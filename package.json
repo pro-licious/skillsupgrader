@@ -8,16 +8,20 @@
     "firebase": "3.8.0",
     "react": "15.5.4",
     "react-dom": "15.5.4",
-    "react-router": "3.0.0"
+    "react-router": "3.0.0",
+    "react-select": "^1.0.0-rc.3"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "@kadira/storybook": "^2.21.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "local:db": "json-server --watch ./src/core/data/db.json --routes ./src/core/data/routes.json --port 8000"
+    "local:db": "json-server --watch ./src/core/data/db.json --routes ./src/core/data/routes.json --port 8000",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -8,6 +8,7 @@ import * as firebase from 'firebase';
 import App from './App';
 import Root from './Root';
 import About from './components/About/About';
+import CoursePage from './components/Courses/CoursePage';
 
 let config = {
   apiKey: "AIzaSyDqVDmUZvSW0WyutMEC2AzeccYpfGU-kvs",
@@ -25,6 +26,7 @@ ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={Root}>
       <IndexRoute component={App} />
+      <Route path="courses" component={CoursePage} />
       <Route path="about" component={About} />
     </Route>
   </Router>,
